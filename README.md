@@ -1,6 +1,13 @@
 # lyoga
 LuaJIT FFI bindings for Yoga
 
+## Building Yoga
+### macOS
+Use CMake
+```bash
+brew cask install cmake
+```
+
 ## License
 MIT License
 
