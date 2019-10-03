@@ -5,6 +5,6 @@
 --============================================================================--
 
 local ffi = require( "ffi" )
-io.input( "yoga.h" )
+io.input( "Yoga.h" )
 ffi.cdef( io.read( "*all" ) )
 return ffi.load( "yoga" )
