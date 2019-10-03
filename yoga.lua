@@ -7,4 +7,4 @@
 local ffi = require( "ffi" )
 io.input( "Yoga.h" )
 ffi.cdef( io.read( "*all" ) )
-return ffi.load( "yoga" )
+return ffi.load( "yogacore" )
